@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(13, 88, 56);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    margin-left: 5%;
+}
+
+
+.container {
+    width: 22vw;
+    height: 42vw;
+    background-color: rgb(255, 242, 246);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px 0px 20px rgb(22, 35, 28);
+  }
+
+.todo-section {
+    flex: 0.5;
+  }
+
+.done-section {
+    flex: 0.5;
+  }
+
+#input-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#input-text{
+    width: 80%;
+    height: 30px;
+    font-size: 18px;
+    border: 0;
+    border-radius: 15px;
+    background-color: rgba(213, 213, 213, 0.5);
+}
+  
+#input-button{
+    border: 0;
+    background: none;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+#input-button:hover{
+    background-color: rgba(211, 211, 211, 0.389);
+    cursor: pointer;
+}
+
+.delete-button{
+    border: 0;
+    background: none;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.delete-button:hover {
+    background-color: rgba(211, 211, 211, 0.389);
+    cursor: pointer;
+  }
+
+
+
+li {
+    list-style-type: none;
+}
